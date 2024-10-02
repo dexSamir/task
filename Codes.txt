@@ -18,7 +18,6 @@ public class HelloWorld
 }
 
 
-
 2.Verilmiş 278 ədədinin rəqəmləri cəmini tapın (2+7+8 <-- bunu tapan alqoritm yazmalısınız).
 using System;
 
@@ -35,8 +34,6 @@ public class HelloWorld
         Console.WriteLine(s); 
     }
 }
-
-
 
 
 3.Verilmis ededin reqemlerinin hasilini tapin
