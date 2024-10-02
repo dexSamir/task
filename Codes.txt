@@ -1,0 +1,57 @@
+1.Verilmis ededin faktorialini tapin.
+
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int n=5; 
+        long s = 1; 
+        while(n>0){
+            s*=n; 
+            n--; 
+        }
+        Console.WriteLine(s); 
+    }
+}
+
+
+
+2.Verilmiş 278 ədədinin rəqəmləri cəmini tapın (2+7+8 <-- bunu tapan alqoritm yazmalısınız).
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int n=523; 
+        int s = 0; 
+        while(n>0){
+            s+= n%10;  
+            n/=10; ; 
+        }
+        Console.WriteLine(s); 
+    }
+}
+
+
+
+
+3.Verilmis ededin reqemlerinin hasilini tapin
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int n=523; 
+        int s = 1; 
+        while(n>0){
+            s*= n%10;  
+            n/=10; ; 
+        }
+        Console.WriteLine(s); 
+    }
+}
